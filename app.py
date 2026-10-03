@@ -21,7 +21,7 @@ class LibraryCatalog:
 
 if __name__ == "__main__":
     library = LibraryCatalog()
-
+    library.add_book("Harry Potter", "J.K. Rowling")
     library.add_book("1984", "George Orwell")
     library.add_book("The Hobbit", "J.R.R. Tolkien")
 
